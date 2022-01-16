@@ -8,8 +8,9 @@ body {
 
 .header {
     background-color: mediumpurple;
-    padding: 15px;
+    padding: 5px;
     text-align: center;
     color: white;
     font-size: 15px;
+    line-height: 5px;
 }
