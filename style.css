@@ -14,3 +14,7 @@ body {
     font-size: 15px;
     line-height: 5px;
 }
+
+.main {
+    margin: auto;
+}
