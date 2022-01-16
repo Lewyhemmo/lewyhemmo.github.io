@@ -4,5 +4,8 @@
 
 header {
     background-color: mediumpurple;
-    height: 100px;
+    padding: 100px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
 }
