@@ -2,10 +2,13 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+    margin: 0;
+}
+
 .header {
     background-color: mediumpurple;
     padding: 30px;
-    margin: 0;
     text-align: center;
     color: white;
     font-size: 30px;
