@@ -9,10 +9,30 @@ body {
 .header {
     background-color: mediumpurple;
     padding: 5px;
+}
+
+.navigation {
     text-align: center;
     color: white;
     font-size: 15px;
     line-height: 5px;
+}
+
+.background {
+    background-image: url("lewis.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.layer {
+    background-color: rgba(0,0,0,0.5);
+}
+
+.intro {
+    text-align: center;
+    padding: 40vh;
+    color: white;
 }
 
 .main {
