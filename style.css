@@ -20,6 +20,7 @@ body {
     margin: 1vh;
 }
 
+/* span title */
 .title {
     position: absolute;
     top: 50%;
@@ -27,16 +28,43 @@ body {
     transform: translate(-50%, -50%);
 }
 
-.letter-shake {
+.title-span-lewis {
     text-align: center;
     font-size: 100px;
     color: white;
     position: relative;
+    font-weight: bold;
 }
 
-.letter-shake:hover {
-    animation: shake 0.5s;
+.title-span-lewis:hover {
+    cursor: pointer;
+}
 
+.title-span-lewis.animated {
+    animation: colour-change;
+    animation-duration: 1s;
+}
+
+@keyframes colour-change {
+    0% {color: red}
+    25% {color: green}
+    50% {color: yellow}
+    75% {color: blue}
+    100% {color: black}
+}
+
+/* h2 title */
+.title-h2-lewis {
+    text-align: center;
+    font-size: 100px;
+    color: white;
+    position: relative;
+    font-weight: bold;
+}
+
+.title-h2-lewis:hover {
+    animation: shake;
+    animation-duration: 0.5s;
     animation-iteration-count: infinite;
 }
 
