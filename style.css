@@ -4,6 +4,7 @@
 
 body {
     margin: 0;
+    background-color: black;
 }
 
 .header {
@@ -12,26 +13,19 @@ body {
 }
 
 .navigation {
-    text-align: center;
+    text-align: left;
     color: white;
     font-size: 15px;
     line-height: 5px;
+    margin: 1vh;
 }
 
-.background {
-    background-image: url("lewis.jpeg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-.layer {
-    background-color: rgba(0,0,0,0.5);
-}
-
-.intro {
+.title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     text-align: center;
-    padding: 40vh;
     color: white;
 }
 
